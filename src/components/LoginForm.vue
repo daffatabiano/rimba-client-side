@@ -64,6 +64,7 @@ export default {
           `${import.meta.env.VITE_BASE_API_URL}/login`,
           {
             method: 'POST',
+            mode: 'cors',
             headers: {
               'Content-Type': 'application/json',
               Origin: '*',
