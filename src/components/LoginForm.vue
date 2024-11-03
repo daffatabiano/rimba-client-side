@@ -66,6 +66,7 @@ export default {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
+              Origin: '*',
             },
             body: JSON.stringify({
               email: this.email,
