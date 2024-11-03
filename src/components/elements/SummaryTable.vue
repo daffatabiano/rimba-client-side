@@ -60,7 +60,6 @@ export default {
           `${import.meta.env.VITE_BASE_API_URL}/transactions/summary`,
           {
             method: 'GET',
-            mode: 'no-cors',
             headers: {
               Accept: 'application/json',
               'Content-Type': 'application/json',
